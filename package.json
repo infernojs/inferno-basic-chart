@@ -1,0 +1,40 @@
+{
+  "name": "inferno-basic-chart",
+  "version": "1.0.0",
+  "description": "Basic charts using Inferno for UI rendering",
+  "main": "dist/inferno-basic-chart.js",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "keywords": [
+    "inferno",
+    "chart",
+    "react",
+    "fast",
+    "dom",
+    "bar",
+    "graph"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/infernojs/inferno-basic-chart.git"
+  },
+  "author": "Dominic Gannaway",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/infernojs/inferno-basic-chart/issues"
+  },
+  "homepage": "https://github.com/infernojs/inferno-basic-chart#readme",
+  "dependencies": {
+    "inferno": "^1.0.0-beta23"
+  },
+  "devDependencies": {
+    "babel-plugin-inferno": "^1.2.0-beta12",
+    "babel-plugin-transform-object-rest-spread": "^6.19.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-es2015-rollup": "^1.2.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "rollup": "^0.36.4",
+    "rollup-plugin-babel": "^2.6.1"
+  }
+}

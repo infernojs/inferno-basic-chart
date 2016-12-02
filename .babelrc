@@ -1,0 +1,11 @@
+{
+  "compact": false,
+  "presets": [
+    "es2015-rollup",
+    "stage-0"
+  ],
+  "plugins": [
+    "transform-object-rest-spread",
+    "babel-plugin-inferno"
+  ]
+}
